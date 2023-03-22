@@ -1,0 +1,8 @@
+services:
+  restserverDB:
+    image: mongo
+    container_name: rest-server
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongo:/data/db
