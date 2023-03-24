@@ -3,7 +3,7 @@ const { Categoria } = require('../models')
 
 // Obtener categorias - paginado - total - populate
 const getCategorias = async (req = request, res = response) => {
-  const { limit = 5, skip = 0 } = req.query
+  const { limit = 10, skip = 0 } = req.query
 
   const query = { estado: true }
 
