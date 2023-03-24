@@ -14,7 +14,12 @@ const {
   existeUsarioPorId,
 } = require('../helpers/db-validators')
 
-const { tieneRole, validarCampos, validarJWT, esAdminRole } = require('../middlewares')
+const {
+  tieneRole,
+  validarCampos,
+  validarJWT,
+  esAdminRole,
+} = require('../middlewares')
 
 const router = Router()
 

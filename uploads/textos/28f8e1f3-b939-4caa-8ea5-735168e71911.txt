@@ -1,0 +1,5 @@
+--start-color: #FF4D4D;
+--end-color: #F9CB28;
+
+
+background-image: linear-gradient(90deg,var(--start-color),var(--end-color));
