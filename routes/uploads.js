@@ -5,6 +5,7 @@ const {
   cargarArchivo,
   actualizarImagen,
   mostrarImagen,
+  actualizarImagenCloudinary,
 } = require('../controllers/uploadsController')
 const { coleccionesPermitidas } = require('../helpers')
 
@@ -24,7 +25,8 @@ router.put(
     ),
     validarCampos,
   ],
-  actualizarImagen
+  actualizarImagenCloudinary
+  // actualizarImagen
 )
 
 router.get(
